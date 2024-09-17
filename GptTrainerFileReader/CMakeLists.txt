@@ -1,0 +1,3 @@
+add_library(GptTrainerFileReader STATIC GptFileReader.cpp)
+
+target_include_directories(GptTrainerFileReader PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

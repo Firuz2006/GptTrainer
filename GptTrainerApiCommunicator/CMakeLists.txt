@@ -1,0 +1,2 @@
+
+add_library(GptTrainerApiCommunicator STATIC ApiCommunicator.cpp)
